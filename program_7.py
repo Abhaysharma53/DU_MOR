@@ -1,0 +1,5 @@
+num = input("enter the character to find its ASCII value")
+a = ord(num)
+print("the equivalent ASCII value of {} is {}".format(num, a)) 
+b = chr(a)
+print("the equivalent character of ASCII value {} is {}".format(a,b))
